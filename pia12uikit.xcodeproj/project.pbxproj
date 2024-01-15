@@ -13,6 +13,8 @@
 		E871B15B2B551FBA008C8F3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E871B1592B551FBA008C8F3B /* Main.storyboard */; };
 		E871B15D2B551FBB008C8F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E871B15C2B551FBB008C8F3B /* Assets.xcassets */; };
 		E871B1602B551FBB008C8F3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E871B15E2B551FBB008C8F3B /* LaunchScreen.storyboard */; };
+		E871B1682B553ABC008C8F3B /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E871B1672B553ABC008C8F3B /* TodoTableViewCell.swift */; };
+		E871B16A2B554024008C8F3B /* ReadmoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E871B1692B554024008C8F3B /* ReadmoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E871B15C2B551FBB008C8F3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E871B15F2B551FBB008C8F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E871B1612B551FBB008C8F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E871B1672B553ABC008C8F3B /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
+		E871B1692B554024008C8F3B /* ReadmoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadmoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E871B1552B551FBA008C8F3B /* SceneDelegate.swift */,
 				E871B1572B551FBA008C8F3B /* ViewController.swift */,
 				E871B1592B551FBA008C8F3B /* Main.storyboard */,
+				E871B1692B554024008C8F3B /* ReadmoreViewController.swift */,
+				E871B1672B553ABC008C8F3B /* TodoTableViewCell.swift */,
 				E871B15C2B551FBB008C8F3B /* Assets.xcassets */,
 				E871B15E2B551FBB008C8F3B /* LaunchScreen.storyboard */,
 				E871B1612B551FBB008C8F3B /* Info.plist */,
@@ -140,7 +146,9 @@
 			files = (
 				E871B1582B551FBA008C8F3B /* ViewController.swift in Sources */,
 				E871B1542B551FBA008C8F3B /* AppDelegate.swift in Sources */,
+				E871B16A2B554024008C8F3B /* ReadmoreViewController.swift in Sources */,
 				E871B1562B551FBA008C8F3B /* SceneDelegate.swift in Sources */,
+				E871B1682B553ABC008C8F3B /* TodoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
